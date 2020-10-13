@@ -5,6 +5,11 @@ A Browser Extension for Beautifying Piazza Classes Website UI
 
 <br/>
 
+## Installation Guide
+[Click Here to View →](https://github.com/HelipengTony/prettypiazza/wiki/PrettyPiazza-Installation-Guide)
+
+<br/>
+
 ## Google Chrome / Microsoft Edge (Chromium)
 [Click Here to Download →](https://github.com/HelipengTony/prettypiazza/raw/master/dist/extension/prettypiazza_chrome.crx)
 
@@ -15,4 +20,4 @@ A Browser Extension for Beautifying Piazza Classes Website UI
 
 <br/>
 
-PrettyPiazza for Safari 14.0+ is on it's way. Star / Watch to get notified as soon as it releases.
+PrettyPiazza for Safari 14.0+ is on it's way. Star / Watch so that you get notified as soon as it releases.
