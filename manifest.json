@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "PrettyPiazza",
+  "version": "0.0.1",
+  "description": "Chrome and Firefox extension for beautifying Piazza Classes Website UI",
+  "author": "TonyHe",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  },
+  "page_action": {
+    "default_icon": "assets/icons/icon128.png",
+    "default_title": "PrettyPiazza"
+  },
+  "permissions": [
+    "declarativeContent"
+  ],
+  "content_scripts": [{
+    "css": ["style.css"],
+    "matches": ["https://piazza.com/class/*"]
+  }]
+}
