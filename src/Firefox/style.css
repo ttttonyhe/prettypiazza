@@ -45,12 +45,12 @@ body #top_bar.top_bar.custom_topbar_color .navbar-inner {
 
 .top_bar .class_list #network_button .top_bar_notification {
   background: #2178d4;
-  margin-top: 0px !important;
+  margin-top: 1px !important;
   margin-left: 5px !important;
   font-family: sans-serif;
   letter-spacing: 0.5px;
   border-radius: 20px;
-  padding: 3px 5px 1px 5px;
+  padding: 3px 5px 3px 5px;
 }
 
 #floating-gear {
@@ -131,6 +131,8 @@ body #top_bar.top_bar.custom_topbar_color .navbar-inner {
   border: 1px solid #e6e6e6 !important;
   height: 16px !important;
   margin-left: 3px !important;
+  vertical-align: text-top !important;
+  font-size: 10px !important;
 }
 
 #popular_tags_bar.theresMore #popular_tags_list {
@@ -911,6 +913,53 @@ div[class*="user_name_"] {
   text-align: center !important;
 }
 
-.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus{
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
   background: #ffffff !important;
+}
+
+.navbar.top_bar.custom_topbar_color .navbar-inner .nav.navbar-nav > li > a {
+  color: #333;
+  font-family: sans-serif;
+  line-height: 1.1;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: none !important;
+}
+
+.navbar.top_bar.custom_topbar_color
+  .navbar-inner
+  .nav.navbar-nav
+  > li.active
+  > a {
+  color: #333;
+  font-family: sans-serif;
+  line-height: 1.1;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: none !important;
+}
+
+#page_main input,
+#page_main textarea {
+  border-radius: 3px !important;
+}
+
+.action.right.cancel {
+  margin-left: 10px !important;
+  border-radius: 3px !important;
+  background: #2178d3 !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+  padding: 1px 10px !important;
+  text-decoration: none !important;
+}
+
+div.pull-left {
+  margin-top: -3px !important;
+}
+
+.pull-left {
+  margin-top: 1px !important;
 }
