@@ -963,3 +963,9 @@ div.pull-left {
 .pull-left {
   margin-top: 1px !important;
 }
+
+.top_bar_careers_homescreen {
+  filter: invert(1) !important;
+  padding-top: 3px !important;
+  transform: scale(1.15) !important;
+}
